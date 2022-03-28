@@ -1,0 +1,158 @@
+.wrapper{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+.header{
+  text-align: center;
+  background-color: #8a2be2;
+  color: yellow;
+  font-size: 3rem;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.subHeaderWrapper{
+  background-color: rgba(138, 43, 226, 0.7);
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.subHeader{
+  display: inline-block;
+  font-size: 2.5rem;
+  text-align: center;
+  color: yellow;
+  margin: 0;
+}
+
+.addItem{
+  float: right;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  background-color: #8a2be2;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.addItem:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.itemWrapper{
+  background-color: rgba(138, 43, 226, 0.7);
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.goBack{
+  float: left;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  background-color: #8a2be2;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.goBack:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.itemHeader{
+  display: inline-block;
+  font-size: 2.5rem;
+  text-align: center;
+  color: yellow;
+  margin: 0;
+}
+
+.form-container{
+  width: 500px;
+  height: 340px;
+  margin: 20px auto;
+  padding: 20px;   
+}
+
+input{
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  border: grey solid;
+  padding: 5px;
+  font-size: 20px;
+}
+.btn{
+  width: 100%; 
+  margin-top: 15px; 
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: #8a2be2;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.view-container{
+  width: 600px;    
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  background-color: wheat;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.view-container .btn{
+  background-color: red;
+}
+.delete-btn{
+  color: red;
+  cursor: pointer;
+}
+
+tbody{
+  margin-top: 25px;
+}
+
+table, th, tr,td{
+  width: 100%;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+th{
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
